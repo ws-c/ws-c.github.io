@@ -1,0 +1,42 @@
+info:
+  title: WGenji-Blog
+  author: WGenji
+
+defaults:
+  favicon: /images/bitbug_favicon.ico
+  logo: /images/blog.png
+  avatar: /images/avatar.gif
+
+home_banner:
+    title: WGenji-Blog
+    subtitle: 
+      text: ['Loading...']
+      hitokoto:
+          enable: true
+          api: https://v1.hitokoto.cn
+
+comment:
+  enable: false
+
+cdn:
+  # Whether to enable CDN
+  enable: true
+  # CDN Provider
+  provider: aliyun # elemecdn, jsdelivr, unpkg, aliyun, custom
+  custom_url: 
+
+navbar:
+  links:
+    Home: # 一级菜单栏名称
+      path: / # 网址，可以为相对路径或者绝对路径）
+    GitHub: # 二级菜单栏名称
+      path: https://github.com/ws-c # 网址，可以为相对路径或者绝对路径）
+      icon: fa-brands fa-github
+  tags:
+    Tags: #取名随意
+        icon: fa-solid fa-tags #图标
+        path: /tags/ #链接
+  categories:
+    Categories: #取名随意
+        icon: fa-solid fa-folder #图标
+        path: /categories/ #链接
