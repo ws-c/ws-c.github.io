@@ -27,11 +27,15 @@ cdn:
 
 navbar:
   links:
-    Home: # 一级菜单栏名称
-      path: / # 网址，可以为相对路径或者绝对路径）
+    Categories:
+      path: /categories/ #链接
+      icon: fa-solid fa-bars
     GitHub: # 二级菜单栏名称
       path: https://github.com/ws-c # 网址，可以为相对路径或者绝对路径）
       icon: fa-brands fa-github
+    About:
+      path: /about/ # 链接
+      icon: fa-solid fa-user
   tags:
     Tags: #取名随意
         icon: fa-solid fa-tags #图标
